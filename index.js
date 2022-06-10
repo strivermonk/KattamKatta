@@ -73,7 +73,5 @@ reset.addEventListener("click", () => {
   player = "X";
   gameOver = false;
   document.getElementById("result").innerText= "Game in Progress";
+  document.getElementsByClassName("player")[0].innerText = "X";
 });
-
-// implement draw
-// vanish the gif as soon as the game restarts
